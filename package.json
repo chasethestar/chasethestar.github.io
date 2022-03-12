@@ -23,7 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "yarn run build:css && react-scripts build",
-    "build:css": "tailwindcss -i src/tailwind.css -o ./dist/tailwind.css --watch\\n",
+    "build:css": "tailwindcss -i src/styles/tailwind.css -o ./dist/tailwind.css --watch\\\\n" ,
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",

@@ -1,9 +1,10 @@
 import React from "react";
+import { Main } from "./pages";
 
 function App() {
   return (
     <div className="App">
-      <p className="text-blue-400">test</p>
+      <Main />
     </div>
   );
 }
